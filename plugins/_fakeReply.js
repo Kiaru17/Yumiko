@@ -3,7 +3,7 @@ import fetch from 'node-fetch';
 export async function before(m, { conn }) {
    let pp = await this.profilePictureUrl(m.sender, 'image').catch(_ => 'https://i.ibb.co/FqPNdLD/file.jpg');
 
-  let nam = "【✰  𝐘𝐔𝐌𝐈𝐊𝐎  メ  𝐁𝐎𝐓    ✰】"
+  let nam = "⸵░⃟🌸𝐷𝑒𝑎𝑡ℎ 𝑁𝑜𝑡𝑒 𝐵𝑜𝑡 𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝑀𝐷⸵░⃟🌸"
 
   // Respuesta con enlace de WhatsApp
   global.rpl = {
