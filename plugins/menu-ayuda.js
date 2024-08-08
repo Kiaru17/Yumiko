@@ -10,7 +10,7 @@ _muptime = await new Promise(resolve => { process.once('message', resolve)
 setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
-🌸 𝐘𝐔𝐌𝐈𝐊𝐎 メ 𝐁𝐎𝐓  🌸
+░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸
 
 ╔════════⫹✰⫺════════╗
 ║    𝐌𝐄𝐍𝐔 メ 𝐏𝐑𝐈𝐍𝐂
