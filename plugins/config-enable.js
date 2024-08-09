@@ -3,41 +3,41 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
   const optionsFull = `╭─────────────►
-┆🌸 Yumiko Bot 🌸
+┆🌸  🌸
 ╰─────────────►
 
 
 ╭─────────────►
-┆  Admins 
+┆  ✧͢⃟ᤢ🌸Admins 
 ╰─────────────►
-┆ .Captcha
-┆ .Welcome
-┆ .Antilink
-┆ .Detect
-┆ .Document
-┆ .Nsfw
-┆ .Modohorny
-┆ .Promote
-┆ .Demote
+┆ ⋆⃟ۣۜ᭪🌸➣ .Captcha
+┆ ⋆⃟ۣۜ᭪🌸➣ .Welcome
+┆ ⋆⃟ۣۜ᭪🌸➣ .Antilink
+┆ ⋆⃟ۣۜ᭪🌸➣ .Detect
+┆ ⋆⃟ۣۜ᭪🌸➣ .Document
+┆ ⋆⃟ۣۜ᭪🌸➣ .Nsfw
+┆ ⋆⃟ۣۜ᭪🌸➣ .Modohorny
+┆ ⋆⃟ۣۜ᭪🌸➣ .Promote
+┆ ⋆⃟ۣۜ᭪🌸➣ .Demote
 ╭─────────────►
-┆ Usuarios 
+┆ ✧͢⃟ᤢ🌸Usuarios 
 ╰─────────────►
-┆ .Autolevelup
-┆ .Chatbot
+┆ ⋆⃟ۣۜ᭪🌸➣ .Autolevelup
+┆ ⋆⃟ۣۜ᭪🌸➣ .Chatbot
 ╭─────────────►
-┆ owner 
+┆ ✧͢⃟ᤢ🌸owner 
 ╰─────────────►
-┆ .Antibotclone
-┆ .Public
-┆ .Solopv
-┆ .Sologp
+┆ ⋆⃟ۣۜ᭪🌸➣ .Antibotclone
+┆ ⋆⃟ۣۜ᭪🌸➣ .Public
+┆ ⋆⃟ۣۜ᭪🌸➣ .Solopv
+┆ ⋆⃟ۣۜ᭪🌸➣ .Sologp
 ╭─────────────►
-┆ Ejemplo 
+┆ ✧͢⃟ᤢ🌸Ejemplo 
 ╰─────────────►
-┆ .on welcome
-┆ .off welcome
-┆ .on welcome
-┆ .off welcome
+┆ ⋆⃟ۣۜ᭪🌸➣ .on welcome
+┆ ⋆⃟ۣۜ᭪🌸➣ .off welcome
+┆ ⋆⃟ۣۜ᭪🌸➣ .on welcome
+┆ ⋆⃟ۣۜ᭪🌸➣ .off welcome
  
  ${usedPrefix}on antiprivado 
  ${usedPrefix}off antiprivado`.trim();
