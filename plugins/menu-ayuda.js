@@ -30,7 +30,7 @@ await conn.sendButton(m.chat, estado, '‎_BY_ : __.k.i.a.r.u._16_', pp, [
 }
 handler.help = ['menu']
 handler.tags = ['info']
-handler.command = /^(menu?)$/i
+handler.command = /^(help?)$/i
 export default handler
 
 function clockString(ms) {
