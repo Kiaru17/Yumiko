@@ -9,23 +9,23 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
 🌸 *${mssg.gpInfo.toUpperCase()}* 🌸
  *♻️ID:*
    • ${groupMetadata.id}
- *🔖${mssg.name}:* 
+ *⸵░⃟🌸${mssg.name}:* 
 • ${groupMetadata.subject}
- *👥${mssg.members}:* ${participants.length}
- *🤿${mssg.gpOwner}:*
+ *⸵░⃟🌸${mssg.members}:* ${participants.length}
+ *⸵░⃟🌸${mssg.gpOwner}:*
 • wa.me/${owner.split('@')[0]}
- *🕵🏻‍♂️${mssg.admin}:* ${groupAdmins.length}
+ *⸵░⃟🌸${mssg.admin}:* ${groupAdmins.length}
 
- *🪢 ${mssg.gpConf}:*
-• 📮 *Welcome:* ${welcome ? '✔️' : '✖️'}
-• 🔥 *ModoHorny:* ${modohorny ? '✔️' : '✖️'}
-• ❕ *Detect:* ${detect ? '✔️' : '✖️'}
-• 🔞 *Nsfw:* ${nsfw ? '✔️' : '✖️'}
-• 🚨 *Anti Link Wha:* ${antiLink ? '✔️' : '✖️'}
-• 🧬 *Captcha:* ${captcha ? '✔️' : '✖️'}
-• 📑 *Document:* ${useDocument ? '✔️' : '✖️'}
+ *⸵░⃟🌸 ${mssg.gpConf}:*
+• ⸵░⃟🌸 *Welcome:* ${welcome ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *ModoHorny:* ${modohorny ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *Detect:* ${detect ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *Nsfw:* ${nsfw ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *Anti Link Wha:* ${antiLink ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *Captcha:* ${captcha ? '✔️' : '✖️'}
+• ⸵░⃟🌸 *Document:* ${useDocument ? '✔️' : '✖️'}
 
-  *📬 ${mssg.gpConfMsg}:*
+  *⸵░⃟🌸 ${mssg.gpConfMsg}:*
 • *Welcome:* ${sWelcome}
 • *Bye:* ${sBye}
 
