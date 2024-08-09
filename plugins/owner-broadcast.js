@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
   let teks = text ? text : cc.text
   conn.reply(m.chat, `✅ ${mssg.txdone} *${mssg.total}:* ${chats.length} chats`, m)
   for (let id of chats) await conn.copyNForward(id, conn.cMod(m.chat, cc, /bc|broadcast|tx/i.test(teks) ? teks : `*${mssg.tx.toUpperCase()} ┃ STAFF*\n_____________________\n\n${teks}`), true).catch(_ => _)
-  //m.reply('✅ Se transmitió a todos los chats :)')
+  //m.reply('❍⃕⃟᎒⃟̀🍭 Se transmitió a todos los chats :)')
 }
 handler.help = ['tx']
 handler.tags = ['owner']
