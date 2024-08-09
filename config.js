@@ -19,14 +19,14 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝐘𝐔𝐌𝐈𝐊𝐎' 
-global.author = '@𝐌𝐱𝐳.18𝐥' 
+global.packname = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸' 
+global.author = '_.k.i.a.r.u._16' 
 global.descripcion = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭'
 
 //--info FG
-global.botName = '𝐘𝐔𝐌𝐈𝐊𝐎'
+global.botName = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸'
 global.fgig = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭' 
-global.fgigt = 'https://instagram.com/Mxz.18.l' 
+global.fgigt = 'https://instagram.com/_.k.i.a.r.u._16' 
 global.fgsc = 'https://github.com/Maxz-on/Yumiko-.git' 
 global.fgyt = ''
 global.fgpyp = ''
