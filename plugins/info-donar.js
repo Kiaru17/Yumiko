@@ -10,13 +10,13 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
  🌸 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 🌸
-• Maxz
+• Kiaru🫦
 
  🌸 𝘈𝘊𝘛𝘐𝘝𝘐𝘋𝘈𝘋 🌸
 • ${uptime}
 
  🌸 𝘉𝘖𝘛 🌸
-• Yumiko Bot
+• Death Note
 
  🌸 𝘋𝘖𝘕𝘈𝘙 🌸
 • Puedes apoyar el bot dando tu estrellita en nuestro repositorio
@@ -27,7 +27,7 @@ let estado = `
 
 `
 await conn.sendButton(m.chat, estado, ' By: Mxz', pp, [
-['🤴 DUEÑO 🤴', '.owner'], ['🫀GRUPOS 🫀', '/grupos']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
+['❍⃕⃟᎒⃟̀🌸 DUEÑO ❍⃕⃟᎒⃟̀🌸 ', '.owner'], ['❍⃕⃟᎒⃟̀🌸 GRUPOS ❍⃕⃟᎒⃟̀🌸', '/grupos']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['donate']
 handler.tags = ['info']
