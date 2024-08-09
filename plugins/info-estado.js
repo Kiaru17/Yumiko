@@ -9,7 +9,7 @@ setTimeout(resolve, 1000) }) * 1000}
 let uptime = clockString(_uptime)
 let estado = `
  🌸 𝘊𝘙𝘌𝘈𝘋𝘖𝘙 🌸
-• Maxzito
+• Kiaru
 
  🌸 𝘔𝘖𝘋𝘖 🌸
 • publico.
@@ -24,10 +24,10 @@ let estado = `
 • ${uptime}
 
  🌸 𝘉𝘖𝘛 🌸
-• Yumiko Bot
+• Death Note 
 `
 await conn.sendButton(m.chat, estado, '@by Maxz', pp, [
-['☁️ MI PERFIL ☁️', '.Perfil'], ['📚 MENU 📚', '/allmenu']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
+['❍⃕⃟🌸 MI PERFIL ❍⃕⃟🌸', '.Perfil'], ['⸵░⃟🌸 MENU ⸵░⃟🌸', '/allmenu']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['estado']
 handler.tags = ['main']
