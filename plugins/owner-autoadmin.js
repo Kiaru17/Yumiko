@@ -1,6 +1,6 @@
 let handler = async (m, { conn, isAdmin }) => {
   if (m.fromMe) throw 'Nggk'
-  if (isAdmin) throw `*🌸 Ya es admin mi maxzito* 🌸`
+  if (isAdmin) throw `*⸵░⃟🌸 Ya es admin Kiaru⸵░⃟🌸`
   await conn.groupParticipantsUpdate(m.chat, [m.sender], "promote")
 }
 handler.tags = ['owner']
