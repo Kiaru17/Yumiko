@@ -40,7 +40,7 @@ export async function before(m, { conn }) {
         mediaType: 'VIDEO',
         description: 'canal del grupo',
         title: packname,
-        body: '𝙈𝙓𝙕',
+        body: 'Kiaru✧͢⃟ᤢ🌸',
         thumbnailUrl: pp,
         sourceUrl: fgcanal
       }
