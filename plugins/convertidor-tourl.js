@@ -5,7 +5,7 @@ import fetch from 'node-fetch'
 let handler = async (m) => {
   let q = m.quoted ? m.quoted : m
   let mime = (q.msg || q).mimetype || ''
-  if (!mime) return conn.reply(m.chat, '\n𝐑𝐄𝐒𝐏𝐎𝐍𝐃𝐀 𝐀 𝐔𝐍𝐀 𝐈𝐌𝐆 𝐎 𝐕𝐈𝐃𝐄𝐎 𝐏𝐀𝐑𝐀 𝐇𝐀𝐂𝐄𝐑 𝐔𝐑𝐋 [✰]', m, fwc)
+  if (!mime) return conn.reply(m.chat, '\n ⋆⃟ۣۜ᭪🌸➣𝐑𝐄𝐒𝐏𝐎𝐍𝐃𝐀 𝐀 𝐔𝐍𝐀 𝐈𝐌𝐆 𝐎 𝐕𝐈𝐃𝐄𝐎 𝐏𝐀𝐑𝐀 𝐇𝐀𝐂𝐄𝐑 𝐔𝐑𝐋♥️', m, fwc)
   await m.react('🌸')
   try {
   let media = await q.download()
@@ -13,10 +13,10 @@ let handler = async (m) => {
   let link = await (isTele ? uploadImage : uploadFile)(media)
   let img = await (await fetch(`${link}`)).buffer()
   let txt = ``
-      txt += `  𝐄𝐍𝐋𝐀𝐂𝐄 : ${link} [✰]\n`
-      txt += `  𝐀𝐂𝐎𝐑𝐓𝐀𝐃𝐎 : ${await shortUrl(link)} [✰]\n`
-      txt += `  𝐓𝐀𝐌𝐀𝐍̃𝐎 : ${formatBytes(media.length)} [✰]\n`
-      txt += `  𝐄𝐗𝐏𝐈𝐑𝐀 : ${isTele ? '𝐍𝐎 𝐄𝐗𝐏𝐈𝐑𝐀' : '𝐃𝐄𝐒𝐂𝐎𝐍𝐎𝐂𝐈𝐃𝐎'} [✰]\n\n`
+      txt += `   ⋆⃟ۣۜ᭪🌸➣𝐄𝐍𝐋𝐀𝐂𝐄 : ${link} [✰]\n`
+      txt += `   ⋆⃟ۣۜ᭪🌸➣𝐀𝐂𝐎𝐑𝐓𝐀𝐃𝐎 : ${await shortUrl(link)} [✰]\n`
+      txt += `   ⋆⃟ۣۜ᭪🌸➣𝐓𝐀𝐌𝐀𝐍̃𝐎 : ${formatBytes(media.length)} ✧͢⃟ᤢ🌸\n`
+      txt += `   ⋆⃟ۣۜ᭪🌸➣𝐄𝐗𝐏𝐈𝐑𝐀 : ${isTele ? ' ⋆⃟ۣۜ᭪🌸➣𝐍𝐎 𝐄𝐗𝐏𝐈𝐑𝐀' : ' ⋆⃟ۣۜ᭪🌸➣𝐃𝐄𝐒𝐂𝐎𝐍𝐎𝐂𝐈𝐃𝐎'} ✧͢⃟ᤢ🌸\n\n`
       txt += ``
 
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, fwc)
