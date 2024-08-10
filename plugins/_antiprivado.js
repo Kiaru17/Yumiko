@@ -6,7 +6,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`🌸 Ey hola  🌸 @${m.sender.split`@`[0]},Quieres ser sub de Yumiko? habla al desorallador de Yumi \nwa.me/5493536568522`, false, {mentions: [m.sender]});
+    await m.reply(`🌸 Ey hola  🌸 @${m.sender.split`@`[0]},Quieres ser sub de Death Note? habla al desorallador de Yumi \nwa.me/5493625494354`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
