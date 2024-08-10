@@ -9,7 +9,7 @@ m.react('🌸')
 const oi = ` 𝐀𝐇: ${pesan}\n 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐒: _*${participants.length}*_
 `;
   let teks = `
- 𝐋𝐋𝐀𝐌𝐀𝐍𝐃𝐎 メ 𝐆𝐑𝐔𝐏𝐎 シ︎ \n${oi}\n\n\n`;
+✧͢⃟ᤢ🌸 𝐋𝐋𝐀𝐌𝐀𝐍𝐃𝐎 𝐆𝐑𝐔𝐏𝐎 ✧͢⃟ᤢ🌸 \n${oi}\n\n\n`;
   for (const mem of participants) {
     teks += ` @${mem.id.split('@')[0]}\n`;
 
