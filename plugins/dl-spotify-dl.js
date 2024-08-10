@@ -11,11 +11,11 @@ let handler = async (m, { conn, args, text, isPrems, isOwner, usedPrefix, comman
     let downloadLink = response.data.spty.download.audio
     let img = await (await fetch(thumbnail)).buffer()
 
-    let txt = `*乂  S P O T I F Y  -  D O W N L O A D*\n\n`
-        txt += `        ✩   *Titulo* : ${title}\n`
-        txt += `        ✩   *Artista* : ${artist}\n`
-        txt += `        ✩   *Album* : ${album}\n`
-        txt += `        ✩   *Fecha de lanzamiento ∙* ${year}\n\n`
+    let txt = `* S P O T I F Y  -  D O W N L O A D*\n\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Titulo* : ${title}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Artista* : ${artist}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Album* : ${album}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Fecha de lanzamiento ∙* ${year}\n\n`
         txt += `*- ↻ El audio se esta enviando espera un momento, soy lenta. . .*`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m)
 await conn.sendFile(m.chat, downloadLink, title + '.mp3', `
@@ -28,10 +28,10 @@ let response = await axios.get(`https://api.botcahx.eu.org/api/download/spotify?
     let downloadLink = response.data.result.data.url
     let img = await (await fetch(thumbnail)).buffer()
 
-    let txt = `*乂  S P O T I F Y  -  D O W N L O A D*\n\n`
-        txt += `        ✩   *Titulo* : ${title}\n`
-        txt += `        ✩   *Artista* : ${artist}\n`
-        txt += `        ✩   *Duración* : ${duration}\n\n`
+    let txt = `* S P O T I F Y  -  D O W N L O A D*\n\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Titulo* : ${title}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Artista* : ${artist}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Duración* : ${duration}\n\n`
         txt += `*- ↻ El audio se esta enviando espera un momento, soy lenta. . .*`
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m)
 await conn.sendFile(m.chat, downloadLink, title + '.mp3', `
@@ -44,11 +44,11 @@ try {
     let downloadLink = response.data.spty.download.audio
     let img = await (await fetch(thumbnail)).buffer()
 
-    let txt = `*乂  S P O T I F Y  -  D O W N L O A D*\n\n`
-        txt += `        ✩   *Titulo* : ${title}\n`
-        txt += `        ✩   *Artista* : ${artist}\n`
-        txt += `        ✩   *Album* : ${album}\n`
-        txt += `        ✩   *Fecha de lanzamiento ∙* ${year}\n\n`
+    let txt = `* S P O T I F Y  -  D O W N L O A D*\n\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Titulo* : ${title}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Artista* : ${artist}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Album* : ${album}\n`
+        txt += `         ⋆⃟ۣۜ᭪🌸➣   *Fecha de lanzamiento ∙* ${year}\n\n`
         txt += `*- ↻ El audio se esta enviando espera un momento, soy lenta. . .*`
 
 await await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m)
