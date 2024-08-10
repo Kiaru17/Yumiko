@@ -3,7 +3,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 
   const optionsFull = `╭─────────────►
-┆🌸  🌸
+┆░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸
 ╰─────────────►
 
 
@@ -333,7 +333,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
       throw false;
   }
   conn.sendMessage(m.chat, {text: `╭─────────────►
-┆🌸 Yumiko Bot 🌸
+┆░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸
 ╰─────────────►\n┆ Opción: ${type.toUpperCase()}\n╰─────────────►\n┆ Estado: ${isEnable ? '𝖠ctivado' : 'Desactivado'}\n╰─────────────►\n┆ Para: ${isAll ? 'Este chat' : isUser ? '' : 'Este chat'}\n╰─────────────►`}, {quoted: fkontak});
 };
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>');
