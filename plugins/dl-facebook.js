@@ -2,13 +2,13 @@
 import fg from 'api-dylux';
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   
-if (!args[0]) throw '🌸 *YUMIKO BOT* 🌸\n\n*INGRESA EL ENLACE*\n_.fb <link>_';
+if (!args[0]) throw '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸\n\n*INGRESA EL ENLACE*\n_.fb <link>_';
   m.react(rwait);
 
   try {
     let result = await fg.fbdl(args[0]);
     let tex = `
-🌸 𝗢𝗕𝗝𝗘𝗧𝗢 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 🌸`;
+♥⃟᮪〭۬̇〬⃟˖ꪶ 𝗢𝗕𝗝𝗘𝗧𝗢 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 ♥⃟᮪〭۬̇〬⃟˖ꪶ`;
     conn.sendFile(m.chat, result.videoUrl, 'fb.mp4', tex, m);
     m.react(done);
   } catch (error) {
