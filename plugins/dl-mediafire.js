@@ -6,7 +6,7 @@ let free = 150 // limite de descarga
 let prem = 500
 let handler = async (m, { conn, args, text, usedPrefix, command, isOwner, isPrems }) => {
 	  
-   if (!args[0]) throw '🌸 *YUMIKO BOT* 🌸\n\n*INGRESE EL LINK MEDIAFIRE*\n_Ejemplo: .mediafire <link>_';
+   if (!args[0]) throw '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸\n\n*INGRESE EL LINK MEDIAFIRE*\n_Ejemplo: .mediafire <link>_';
     if (!args[0].match(/mediafire/gi)) throw `❎ ${mssg.noLink('Mediafire')}`
     m.react(rwait)
 
@@ -20,9 +20,9 @@ let handler = async (m, { conn, args, text, usedPrefix, command, isOwner, isPrem
     let caption = `
    ≡ *MEDIAFIRE DL*
 
-*📌${mssg.name}:* ${filename}
-*⚖️${mssg.size}:* ${filesizeH}
-*🔼${mssg.aploud}:* ${aploud}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.name}:* ${filename}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.size}:* ${filesizeH}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.aploud}:* ${aploud}
 ${isLimit ? `\n▢ ${mssg.limitdl} *+${free} MB* ${mssg.limitdlTe} *${prem} MB*` : ''} 
 `.trim()
     await conn.sendFile(m.chat, ss, 'ssweb.png', caption, m)
@@ -39,9 +39,9 @@ ${isLimit ? `\n▢ ${mssg.limitdl} *+${free} MB* ${mssg.limitdlTe} *${prem} MB*`
     let caption = `
    ≡ *MEDIAFIRE DL 2*
 
-*📌${mssg.name}:* ${filename}
-*⚖️${mssg.size}:* ${filesize}
-*🔼${mssg.aploud}:* ${upload_date}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.name}:* ${filename}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.size}:* ${filesize}
+* ⋆⃟ۣۜ᭪🌸➣${mssg.aploud}:* ${upload_date}
 ${isLimit ? `\n▢ ${mssg.limitdl} *+${free} MB* ${mssg.limitdlTe} *${prem} MB*` : ''} 
 `.trim()
 await conn.sendFile(m.chat, ss, 'ssweb.png', caption, m)
