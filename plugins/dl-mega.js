@@ -12,7 +12,7 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `\\n 🌸 𝙔𝙐𝙈𝙄𝙆𝙊 𝘽𝙊𝙏 🌸 \n
+                displayName: `\\n ░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸 \n
 𝙇𝘼 𝙈𝙀𝙅𝙊𝙍 𝙍𝙀𝙔𝙉𝘼`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
@@ -27,9 +27,9 @@ global.fcontact = {
 
         if (file.size >= 300000000) return m.reply('Error: El archivo es grande (Maximo tamaño: 300MB)');
 
-    await conn.reply(m.chat, '🌸 *LOADING*....🌸', fcontact);
+    await conn.reply(m.chat, '♥⃟᮪〭۬̇〬⃟˖ꪶ *LOADING*....♥⃟᮪〭۬̇〬⃟˖ꪶ', fcontact);
 
-        const caption = `🌸 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖 𝙚𝙭𝙞𝙩𝙤𝙨𝙖....🌸\n\n 𝙉𝙤𝙢𝙗𝙧𝙚: ${file.name}\n. 𝙋𝙚𝙨𝙤: ${formatBytes(file.size)}\n. 𝙁𝙚𝙘𝙝𝙖: ${fecha}`;
+        const caption = `🌸♥⃟᮪〭۬̇〬⃟˖ꪶ 𝘿𝙚𝙨𝙘𝙖𝙧𝙜𝙖 𝙚𝙭𝙞𝙩𝙤𝙨𝙖....♥⃟᮪〭۬̇〬⃟˖ꪶ\n\n 𝙉𝙤𝙢𝙗𝙧𝙚: ${file.name}\n. 𝙋𝙚𝙨𝙤: ${formatBytes(file.size)}\n. 𝙁𝙚𝙘𝙝𝙖: ${fecha}`;
 
         const data = await file.downloadBuffer();
 
