@@ -22,11 +22,11 @@ let estado = `
  🌸 𝘎𝘌𝘕𝘌𝘚𝘐𝘚 🌸
 • https://chat.whatsapp.com/GO5l3kShGE30eV9dN82elb
 
-🌸 𝘠𝘜𝘔𝘐𝘒𝘖 𝘎𝘓𝘖𝘉𝘈𝘓 🌸
+ ░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸 
 •https://chat.whatsapp.com/E8krRQKttIl3NpX3T1qZwv
 `
-await conn.sendButton(m.chat, estado, 'by: Mxz', pp, [
-['🤴 DUEÑO 🤴', '.owner'], ['☁️ DONAR ☁️', '.donate']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
+await conn.sendButton(m.chat, estado, 'by: Kiaru', pp, [
+['🌸 DUEÑA 🌸', '.owner'], ['☁️ DONAR ☁️', '.donate']], null, [['🌸 CANAL 🌸', `${fgcanal}`]], m)
 }
 handler.help = ['grupos']
 handler.tags = ['info']
