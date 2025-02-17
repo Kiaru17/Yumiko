@@ -4,11 +4,11 @@ import { fileURLToPath } from 'url'
 
 global.owner = [
   ['5493625494254', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒂', true],
-  ['5493536568522', '𝑪𝒐𝒍𝒂𝒃 ', true],
+  ['5493625494354', '𝑪𝒐𝒍𝒂𝒃 ', true],
 ] //Numeros de owner 
 
 global.mods = [''] 
-global.prems = ['5493536568522', '5493625494354']
+global.prems = ['5493625494354', '5493625494354']
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -21,13 +21,13 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸' 
-global.author = '_.k.i.a.r.u._16' 
+global.author = '_.k.i.a.r.u._17' 
 global.descripcion = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭'
 
 //--info FG
 global.botName = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸'
 global.fgig = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭' 
-global.fgigt = 'https://instagram.com/_.k.i.a.r.u._16' 
+global.fgigt = 'https://instagram.com/_.k.i.a.r.u._17' 
 global.fgsc = 'https://github.com/Maxz-on/Yumiko-.git' 
 global.fgyt = ''
 global.fgpyp = ''
