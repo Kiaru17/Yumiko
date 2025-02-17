@@ -33,24 +33,24 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸
+❃࡙🌸ᩚꤪꤨְ 𝐄𝐫𝐮 𝐁𝐨𝐭 𝐌𝐃 ❃࡙🌸ᩚꤪꤨְ
 
 ︵ׄ⏜︵ׄ⠑ ⏜ 𓊈  🪷  𓊉 ⏜ ⠊︵ֺ⏜︵ֺ
-║\t\t\t\t𝐈𝐍𝐅𝐎 𝐁𝐎𝐓
+║\t\t\t\t  ⦙֟፝𝐈⦙֟𝐧⦙֟፝𝐟⦙֟፝𝐨⦙֟ ⦙֟֟፝𝐁⦙֟፝𝐨⦙֟፝𝐭⦙֟֟፝ 
 ╠═══
 ╠ ঔৣ͜͡➳𝐌𝐎𝐃𝐎 : Público
 ╠ ঔৣ͜͡➳𝐁𝐀𝐈𝐋𝐄𝐘𝐒 : Multi Device
 ╠ ঔৣ͜͡➳𝐓𝐈𝐄𝐌𝐏𝐎 𝐎𝐍 : %muptime
 ╠ ঔৣ͜͡➳𝐔𝐒𝐄𝐑𝐒 : 133990
-╚═══════════════════╝
+࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚   ᅟ𖹭    ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚
 %readmore
 ︵ׄ⏜︵ׄ⠑ ⏜ 𓊈  🪷  𓊉 ⏜ ⠊︵ֺ⏜︵ֺ
-║\t\t\t 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑𝐒
+║\t\t\t   ⦙֟፝𝐈⦙֟𝐧⦙֟፝𝐟⦙֟፝𝐨⦙֟ ⦙֟֟፝𝐔⦙֟፝𝐬⦙֟፝𝐞⦙֟֟፝𝐫⦙֟፝𝐬⦙
 ╠═══
 ╠ 💸⃟ꦿ⸼𝐍𝐎𝐌𝐁𝐑𝐄 : %name
 ╠ 💸⃟ꦿ⸼𝐍𝐈𝐕𝐄𝐋 : %level
 ╠ 💸⃟ꦿ⸼𝐗𝐏 : %totalexp
-╚═══════════════════╝
+࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚   ᅟ𖹭    ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚
 `.trimStart(),
   header: '╔════════♥⃟᮪〭۬̇〬⃟˖ꪶ════════╗\n║\t\t\t%category\n╠════════♥⃟᮪〭۬̇〬⃟˖ꪶ════════╝\n ⃙◌⃙◍━━━━━━━━♥⃟᮪〭۬̇〬⃟˖ꪶ━━━━━━━ ⃙◌⃙◍\n┃╭━─━─━──❍፝⃟༘─━──━─━╮',
   body: '┃  ⋆⃟ۣۜ᭪🌸➣ %cmd %isdiamond %isPremium',
@@ -165,14 +165,14 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `\n ░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸 \n
+                displayName: `\n ❃࡙🌸ᩚꤪꤨְ 𝐄𝐫𝐮 𝐁𝐨𝐭 ❃࡙🌸ᩚꤪꤨְ \n
 𝐋𝐀 𝐌𝐄𝐉𝐎𝐑 𝐑𝐄𝐘𝐍𝐀`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
     };
 
-    let pp = 'https://i.ibb.co/pnTYkw8/file.jpg'
+    let pp = 'https://i.ibb.co/sp9PGYP1/file.jpg'
     await conn.reply(m.chat, ' 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 メ 𝐌𝐄𝐍𝐔 シ︎', fcontact);
 
     /*conn.sendButton(m.chat, text.trim(), ` ⋆⃟ۣۜ᭪🌸➣ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
