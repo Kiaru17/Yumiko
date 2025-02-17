@@ -54,15 +54,6 @@ let infobt = `
 ▢ Instagram :
   • ${fgig}
 
- 🌸 *PROYECTO XB²* 🌸
-  • ${bgp}`
-
-/*conn.sendButton(m.chat, infobt, mssg.ig, null, [
-  ['ꨄ︎ Apoyar', `${usedPrefix}donate`],
-   ['⌬ Grupos', `${usedPrefix}gpdylux`]
- ], m)*/
- m.reply(infobt)
-
 }
 handler.help = ['info']
 handler.tags = ['info']
