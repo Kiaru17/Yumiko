@@ -4,64 +4,64 @@ let handler = async function (m, { conn, text, usedPrefix }) {
     m.react('🔞')
 
 let m2 = `
-░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸
+❃࡙🌸ᩚꤪꤨְ 𝐄𝐫𝐮 𝐁𝐨𝐭 𝐌𝐃 ❃࡙🌸ᩚꤪꤨְ
 
-╔════════⫹♥⃟᮪〭۬̇〬⃟˖ꪶ⫺════════╗
-║       𝐌𝐄𝐍𝐔 𝐍𝐒𝐖𝐅
-╠════════⫹♥⃟᮪〭۬̇〬⃟˖ꪶ⫺════════╝
+︵ׄ⏜︵ׄ⠑ ⏜ 𓊈  🪷  𓊉 ⏜ ⠊︵ֺ⏜︵ֺ
+          𝐌𝐄𝐍𝐔 𝐍𝐒𝐖𝐅
+ ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚ ᅟ𖹭  ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚
   ━━━━━━━━⧔❍⃕⃟🌸⧕━━━━━━━
 ┃╭━─━─━──≪ ♥⃟᮪〭۬̇〬⃟˖ꪶ ≫─━──━─━╮
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwloli
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwfoot
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwass
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwbdsm
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwcum
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwero
-┃  ⋆⃟ۣۜ᭪🌸➣.nsfwfemdom
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwfoot
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfwglass
-┃  ⋆⃟ۣۜ᭪🌸➣ .nsfworgy
-┃  ⋆⃟ۣۜ᭪🌸➣ .yuri
-┃  ⋆⃟ۣۜ᭪🌸➣ .yuri2
-┃  ⋆⃟ۣۜ᭪🌸➣ .yaoi
-┃  ⋆⃟ۣۜ᭪🌸➣ .yaoi2
-┃  ⋆⃟ۣۜ᭪🌸➣ .panties
-┃  ⋆⃟ۣۜ᭪🌸➣ .tetas
-┃  ⋆⃟ۣۜ᭪🌸➣ .booty
-┃  ⋆⃟ۣۜ᭪🌸➣ .ecchi
-┃  ⋆⃟ۣۜ᭪🌸➣ .furro
-┃  ⋆⃟ۣۜ᭪🌸➣ .hentai
-┃  ⋆⃟ۣۜ᭪🌸➣ .trapito
-┃  ⋆⃟ۣۜ᭪🌸➣ .imagenlesbians
-┃  ⋆⃟ۣۜ᭪🌸➣ .pene
-┃  ⋆⃟ۣۜ᭪🌸➣ .porno
-┃  ⋆⃟ۣۜ᭪🌸➣ .randomxxx
-┃  ⋆⃟ۣۜ᭪🌸➣ .pechos
-┃  ⋆⃟ۣۜ᭪🌸➣ .takeda
-┃  ⋆⃟ۣۜ᭪🌸➣ .asuma
-┃  ⋆⃟ۣۜ᭪🌸➣ .endeavor
-┃  ⋆⃟ۣۜ᭪🌸➣ .ass (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .boobs (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .lesbiana (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .pack (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .pussy (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .xnxx (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .nsfwloli
+┃  🦀ࠢ์ ׄ⪧ .nsfwfoot
+┃  🦀ࠢ์ ׄ⪧ .nsfwass
+┃  🦀ࠢ์ ׄ⪧ .nsfwbdsm
+┃  🦀ࠢ์ ׄ⪧ .nsfwcum
+┃  🦀ࠢ์ ׄ⪧ .nsfwero
+┃  🦀ࠢ์ ׄ⪧ .nsfwfemdom
+┃  🦀ࠢ์ ׄ⪧ .nsfwfoot
+┃  🦀ࠢ์ ׄ⪧ .nsfwglass
+┃  🦀ࠢ์ ׄ⪧ .nsfworgy
+┃  🦀ࠢ์ ׄ⪧ .yuri
+┃  🦀ࠢ์ ׄ⪧ .yuri2
+┃  🦀ࠢ์ ׄ⪧ .yaoi
+┃  🦀ࠢ์ ׄ⪧ .yaoi2
+┃  🦀ࠢ์ ׄ⪧ .panties
+┃  🦀ࠢ์ ׄ⪧ .tetas
+┃  🦀ࠢ์ ׄ⪧ .booty
+┃  🦀ࠢ์ ׄ⪧ .ecchi
+┃  🦀ࠢ์ ׄ⪧ .furro
+┃  🦀ࠢ์ ׄ⪧ .hentai
+┃  🦀ࠢ์ ׄ⪧ .trapito
+┃  🦀ࠢ์ ׄ⪧ .imagenlesbians
+┃  🦀ࠢ์ ׄ⪧ .pene
+┃  🦀ࠢ์ ׄ⪧ .porno
+┃  🦀ࠢ์ ׄ⪧ .randomxxx
+┃  🦀ࠢ์ ׄ⪧ .pechos
+┃  🦀ࠢ์ ׄ⪧ .takeda
+┃  🦀ࠢ์ ׄ⪧ .asuma
+┃  🦀ࠢ์ ׄ⪧ .endeavor
+┃  🦀ࠢ์ ׄ⪧ .ass (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .boobs (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .lesbiana (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .pack (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .pussy (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .xnxx (ⓓ)
 ┃╰━─━──━─≪ ♥⃟᮪〭۬̇〬⃟˖ꪶ ≫─━──━─━╯
    ━━━━━━━━⧔❍⃕⃟🌸⧕━━━━━━━
 
 
-╔════════⫹♥⃟᮪〭۬̇〬⃟˖ꪶ⫺════════╗
-║       𝐌𝐄𝐍𝐔 𝐀𝐍𝐈𝐌𝐄
-╠════════⫹♥⃟᮪〭۬̇〬⃟˖ꪶ⫺════════╝
+︵ׄ⏜︵ׄ⠑ ⏜ 𓊈  🪷  𓊉 ⏜ ⠊︵ֺ⏜︵ֺ
+          𝐌𝐄𝐍𝐔 𝐀𝐍𝐈𝐌𝐄
+ ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚ ᅟ𖹭  ࿙࿚࡛╰࡛࿙࿚╰࡛࿙࿚╰࡛࿙࿚
   ━━━━━━━━⧔❍⃕⃟🌸⧕━━━━━━━
 ┃╭━─━─━──≪ ♥⃟᮪〭۬̇〬⃟˖ꪶ ≫─━──━─━╮
-┃  ⋆⃟ۣۜ᭪🌸➣ .xwaifu (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .xneko (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .blowjob (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .trap (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .yuri (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .cum (ⓓ)
-┃  ⋆⃟ۣۜ᭪🌸➣ .hentai (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .xwaifu (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .xneko (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .blowjob (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .trap (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .yuri (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .cum (ⓓ)
+┃  🦀ࠢ์ ׄ⪧ .hentai (ⓓ)
 ┃╰━─━──━─≪ ♥⃟᮪〭۬̇〬⃟˖ꪶ ≫─━──━─━╯
    ━━━━━━━━⧔❍⃕⃟🌸⧕━━━━━━━
 `
@@ -75,14 +75,14 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `\n ░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸 \n
+                displayName: `\n ❃࡙🌸ᩚꤪꤨְ 𝐄𝐫𝐮 𝐁𝐨𝐭 𝐌𝐃 ❃࡙🌸ᩚꤪꤨְ \n
 𝐋𝐀 𝐌𝐄𝐉𝐎𝐑 𝐑𝐄𝐘𝐍𝐀`,
                 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
     };
 
-    await conn.reply(m.chat, '✧͢⃟ᤢ🌸𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔✧͢⃟ᤢ🌸', fcontact);
+    await conn.reply(m.chat, '꒰🪻⋆ ִֶָ ๋𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔❃࡙🌸ᩚꤪꤨְ', fcontact);
     /*conn.sendButton(m.chat, m2, mssg.ig, pp, [
       ['⏍ Info', `${usedPrefix}botinfo`],
       ['⌬ Grupos', `${usedPrefix}gpdylux`]
