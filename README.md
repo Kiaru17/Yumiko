@@ -1,5 +1,5 @@
 #### 𝐕𝐄𝐑𝐂𝐈𝐎𝐍 𝐃𝐄 𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄: 𝐁𝐞𝐭𝐚
-### ░⃟🌸 𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓 ░⃟🌸
+### ░⃟🌸 𝑬𝒓𝒖 𝑩𝒐𝒕 𝑴𝑫░⃟🌸
 <p align="center">
 <img src="https://telegra.ph/file/6ab031b1f73b0ec4a157d.jpg" alt="Yumiko-Pro" width="900"/>
 </p>
