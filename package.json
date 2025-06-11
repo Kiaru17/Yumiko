@@ -3,8 +3,17 @@
     "version": "3.0.0",
     "description": "La mejor Bot de WhatsApp",
     "main": "index.js",
-    "type": "module",
-    "directories": { "npm install node-cache"
+    "type": "module",import NodeCache from 'node-cache';
+const myCache = new NodeCache();
+
+myCache.set("miClave", "miValor", 60);
+
+const valor = myCache.get("miClave");
+console.log(valor);
+
+myCache.del("miClave");
+
+    "directories": {
         "lib": "lib",
         "src": "src",
         "plugins": "plugins"
