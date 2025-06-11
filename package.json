@@ -4,7 +4,7 @@
     "description": "La mejor Bot de WhatsApp",
     "main": "index.js",
     "type": "module",
-    "directories": {npm install node-cache
+    "directories": { "npm install node-cache"
         "lib": "lib",
         "src": "src",
         "plugins": "plugins"
