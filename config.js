@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url' 
 
 global.owner = [
-  ['5493625494254', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒂', true],
+  ['5493625494354', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒂', true],
   ['5493625494354', '𝑪𝒐𝒍𝒂𝒃 ', true],
 ] //Numeros de owner 
 
@@ -20,12 +20,12 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸' 
+global.packname = '░⃟🌸𝑬𝒕𝒖 𝑩𝒐𝒕░⃟🌸' 
 global.author = '_.k.i.a.r.u._17' 
 global.descripcion = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭'
 
 //--info FG
-global.botName = '░⃟🌸𝐃𝐄𝐀𝚻𝐇 𝐍𝐎𝚻𝐄 𝐁𝐎𝐓░⃟🌸'
+global.botName = '░⃟🌸𝑬𝒓𝒖 𝑩𝒐𝒕░⃟🌸'
 global.fgig = '𝐒𝐨𝐥𝐨 𝐩𝐫𝐞𝐠𝐮𝐧𝐭𝐚𝐬 𝐝𝐞𝐥 𝐛𝐨𝐭' 
 global.fgigt = 'https://instagram.com/_.k.i.a.r.u._17' 
 global.fgsc = 'https://github.com/Maxz-on/Yumiko-.git' 
