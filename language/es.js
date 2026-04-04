@@ -1,4 +1,3 @@
-
 const translations = {
     
     afktemx: 'Mames que quieres dejar un testamento o que pex',
@@ -10,7 +9,7 @@ const translations = {
     afktag: 'El usuario se encuentra AFK',
     name: 'Nombre',
     noMention: 'Menciona a un Usuario',
-    userDb: 'El usuario no se encuntra en mi base de datos',
+    userDb: 'El usuario no se encuentra en mi base de datos',
     example: 'Ejemplo',
 
     //-- Stick reaction
@@ -23,7 +22,7 @@ const translations = {
     hi: 'Hola',
     gp: 'Grupo',
     nobbot: 'Este comando solo puede ser usado en el bot principal',
-    botqr: '*Usa este Código para convertirte en Bot*\n\n1. Haga click en los tres puntos en la esquina superior derecha.\n2. Toque Dispositivos vinculados\n3. Selecciona *Vincular con el número de teléfono*\n\n*Nota:* El código solo sirve para este número',
+    botqr: '*Usa este Código para convertirte en Bot*\n\n1. Haga click en los tres puntos en la esquina superior derecha.\n2. Toque Dispositivos vinculados\n3. Selecciona *Vincular con el número*\n\n*Nota:* El código solo es válido por 60 segundos',
     recon: 'Conexión perdida...',
     sesClose: 'La conexión se cerró, Tendras que conectarte manualmente enviando el *ID*',
     connet: 'Conectado con exito',
@@ -181,7 +180,7 @@ const translations = {
     fell: 'La ruleta cayó en',
     slotC: 'Casi lo logras sigue intentando :)',
 
-    delWarnUser: 'Un admin redujo su advertencia ahora tienesS',
+    delWarnUser: 'Un admin redujo su advertencia ahora tienes',
     warnNan: 'El usuario no tiene ninguna advertencia',
     delwarn: 'Unwarn',
     warns: 'Warns',
@@ -229,7 +228,7 @@ const translations = {
     expire: 'Expira en',
     ping: 'Velocidad',
     uptime: 'Tiempo Activo',
-    gpNsfw: (usedPrefix) => `El grupo no admite contenido nsfw\nUsa este grupo\n${bgp3}\n\nSi eres admin habilita con\n*${usedPrefix}enable* nsfw`,
+    gpNsfw: (usedPrefix) => `El grupo no admite contenido nsfw\nUsa este grupo\n${global.bgp3}\n\nSi eres admin habilita con\n*${usedPrefix}enable* nsfw`,
     nsfwAge: 'Eres menor de edad! vuelve cuando tengas mas de 18',
     addPremUser: 'Ahora te conviertes en Usuario Premium',
     banChat: 'Se desactivó el Bot en este grupo',
@@ -257,22 +256,22 @@ const translations = {
     tradList: 'Lista de Idiomas Admitidos',
     searchError: 'No se encontraron resultados',
 
-    rownerH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 𝗱𝗲𝗹 𝗯𝗼𝘁 🌸',
+    rownerH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 𝗱𝗲𝗹 𝗕𝗼𝘁 🌸',
     ownerH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗢𝘄𝗻𝗲𝗿 𝘆 𝗦𝘂𝗯 𝗕𝗼𝘁𝘀 🌸',
     modsH: '🌸 𝗘𝘀𝘁𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗣𝗮𝗿𝗮 𝗺𝗼𝗱𝗲𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗱𝗲𝗹 𝗕𝗼𝘁 🌸',
-    premH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗽𝗮𝗿𝗮 𝗺𝗶𝗲𝗺𝗯𝗿𝗼𝘀 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 🌸\n\n𝗘𝘀𝗰𝗿𝗶𝗯𝗲 .𝗽𝗿𝗲𝗺𝗶𝘂𝗺 𝗽𝗮𝗿𝗮 𝗺𝗮𝘀 𝗶𝗻𝗳𝗼',
+    premH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗽𝗮𝗿𝗮 𝗺𝗶𝗲𝗺𝗯𝗿𝗼𝘀 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 🌸\n\n𝗘𝘀𝗰𝗿𝗶𝗯𝗲 */premium* 𝗣𝗮𝗿𝗮 𝗠𝗮𝘀 𝗜𝗻𝗳𝗼',
     groupH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝘂𝘀𝗮𝗿 𝗲𝗻 𝗴𝗿𝘂𝗽𝗼𝘀 🌸',
-    privateH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝘂𝘀𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗮𝘁 𝗽𝗿𝗶𝘃𝗮𝗱𝗼 𝗱𝗲𝗹 𝗕𝗼𝘁 🌸',
+    privateH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝘂𝘀𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗮𝘁 𝗽𝗿𝗶𝘃𝗮𝗱𝗼 𝗰𝗼𝗻 𝗘𝗹 𝗯𝗼𝘁 🌸',
     adminH: '🌸 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗽𝗮𝗿𝗮 𝗔𝗱𝗺𝗶𝗻𝘀 𝗱𝗲𝗹 𝗴𝗿𝘂𝗽𝗼𝘀 🌸',
     botAdmin: '🌸 ¡𝗣𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗱𝗲𝗯𝗼 𝘀𝗲𝗿 𝗔𝗱𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗮𝗱𝗼𝗿! 🌸',
-    unregH: '🌸 𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗲𝘀𝗲 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻  𝗘𝘀𝗰𝗿𝗶𝗯𝗶𝗲𝗻𝗱𝗼 🌸:\n\n .𝘳𝘦𝘨 𝘯𝘰𝘮𝘣𝘳𝘦+𝘦𝘥𝘢𝘥+𝘨𝘦𝘯𝘦𝘳𝘰',
+    unregH: '🌸 𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗲𝘀𝗲 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻 𝗘𝘀𝗰𝗿𝗶𝗯𝗶𝗲𝗻𝗱𝗼 🌸:\n\n/reg',
     avisoEnable: '🌸 𝙁𝙐𝙉𝘾𝙄𝙊𝙉𝙀𝙎 𝙔𝙐𝙈𝙄𝙆𝙊  🌸',
     avisoGene: '🌸 𝗢𝗥𝗗𝗘𝗡𝗘𝗦 𝗥𝗘𝗖𝗜𝗕𝗜𝗗𝗔𝗦 🌸',
     avisoGene2: '🌸 𝗛𝗘𝗖𝗛𝗢  🌸',
     avisoGene3: '🌸 𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔 🌸',
     avisoGene4: '🌸 𝗬𝗨𝗠𝗜𝗞𝗢 𝗕𝗢𝗧 🌸',
-    igt: `🌸 Sígueme en Instagram\n${fgig} 🌸`,
-    ig: `© 2024 | By: Mxz.`
+    igt: `🌸 Sígueme en Instagram\n${global.fgig} 🌸`,
+    ig: `© 2024 | By: ྐ𖥨᩠ׄ݁𝓚𝓲𝓪𝓻𝓾 𝓐𝓻𝓽༱༢ཱུ .`
 }
 
 export default translations
