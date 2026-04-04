@@ -1,4 +1,3 @@
-
 const translations = {
     
     afktemx: 'Dude, do you want to leave a whole testament or what?',
@@ -23,11 +22,11 @@ const translations = {
     hi: 'Hello',
     gp: 'Group',
     nobbot: 'This command can only be used in the main bot',
-    botqr: '*Use this Code to become a Bot*\n\n1. Click on the three dots in the top right corner.\n2. Tap Linked Devices.\n3. Select *Link with phone number*\n\n*Note:* The code is only valid for this number.',
+    botqr: '*Use this Code to become a Bot*\n\n1. Click on the three dots in the top right corner.\n2. Tap Linked Devices.\n3. Select *Link with phone number*\n\n*Note:* The code is only valid for 60 seconds',
     recon: 'Connection lost...',
     sesClose: 'The connection has been closed, you have to manually connect by sending the *ID*',
     connet: 'Connected successfully',
-    connID: '*Connected successfully!*\n\nIn a few seconds, we will send you the *Id* that you must use to connect again\n\n*NOTE:* Leave the group *DyLux  ┃ ᴮᴼᵀ*\nsave this link so you can join later\nhttps://instabio.cc/fg98ff',
+    connID: '*Connected successfully!*\n\nIn a few seconds, we will send you the *Id* that you must use to connect again\n\n*NOTE:* Save the ID to be able to connect next time',
     connMsg: 'The next time you connect, send the following message to log in without scanning another *QR* code',
     botlist: 'List of Active Sub Bots',
     newcode: (usedPrefix) => `Great! You can now use *${usedPrefix}botclone* to request a new QR code`,
@@ -229,7 +228,7 @@ const translations = {
     expire: 'Expires in',
     ping: 'Speed',
     uptime: 'Uptime',
-    gpNsfw: (usedPrefix) => `The group does not allow NSFW content\nUse this group\n${bgp3}\n\nIf you are an admin, enable it with\n*${usedPrefix}enable* nsfw`,
+    gpNsfw: (usedPrefix) => `The group does not allow NSFW content\nUse this group instead\n${global.bgp3}\n\nIf you are an admin, enable it with\n*${usedPrefix}enable* nsfw`,
     nsfwAge: 'You are under age! Come back when you\'re over 18',
     addPremUser: 'You are now a Premium User',
     banChat: 'Bot has been disabled in this group',
@@ -265,7 +264,7 @@ const translations = {
     adminH: 'This command is only for *Group Admins*',
     botAdmin: 'To use this command, I must be an *Administrator*!',
     unregH: 'Register to use this feature by typing:\n\n*/reg*',
-    ig: `▢ Follow me on Instagram\n${fgig}`
+    ig: `▢ Follow me on Instagram\n${global.fgig}`
 }
 
 export default translations
