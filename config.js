@@ -45,31 +45,19 @@ global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
 global.bgp2 = 'https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a'
 global.bgp3 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //--GP NSFW
 
-// Variables de respuesta
-global.fwc = { 
-  key: { 
-    fromMe: false, 
-    participant: `0@s.whatsapp.net`, 
-    remoteJid: "status@broadcast" 
-  }, 
-  message: { 
-    contactMessage: { 
-      displayName: global.botName, 
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;${global.author};;;\nFN:${global.author}\nEND:VCARD` 
-    } 
-  } 
-}
+// Variables de respuesta (que faltaban)
+global.fwc = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: "status@broadcast" }, message: { contactMessage: { displayName: global.botName, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;${global.author};;;\nFN:${global.author}\nEND:VCARD` } } }
 global.rpl = { quoted: null }
 global.rcanal = { quoted: null }
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
-global.dia = global.d.toLocaleDateString(global.locale, {weekday: 'long'});
-global.fecha = global.d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = global.d.toLocaleDateString('es', {month: 'long'});
-global.año = global.d.toLocaleDateString('es', {year: 'numeric'});
-global.tiempo = global.d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
+global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('es', {month: 'long'});
+global.año = d.toLocaleDateString('es', {year: 'numeric'});
+global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 
 global.wait = '🌸 𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨....'
