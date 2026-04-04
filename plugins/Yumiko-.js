@@ -1,14 +1,19 @@
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
-
-if (!args[0]) throw `🌸 *Ingrese un texto para iniciar la escuesta.* 🌸\n\n🌸 *Ejemplo* 🌸: \n*${usedPrefix + command}* texto|texto2...`
-if (!text.includes('|')) throw  `🌸 Separe las encuestas con *|* 🌸\n\n🌸 *Ejemplo* 🌸: \n*${usedPrefix + command}* :v┆._....`
-let a = []
-let b = text.split('|')
-for (let c = 0; c < b.length; c++) {
-a.push([b[c]])
-                        }
-                        return conn.sendPoll(m.chat, `${packname}`, a, m)
+  
+  if (!args[0]) throw `🌸 *Ingrese un texto para iniciar la encuesta.* 🌸\n\n🌸 *Ejemplo* 🌸: \n*${usedPrefix + command}* opción1|opción2|opción3`
+  
+  if (!text.includes('|')) throw `🌸 Separe las opciones con *|* 🌸\n\n🌸 *Ejemplo* 🌸: \n*${usedPrefix + command}* opción1|opción2|opción3`
+  
+  let opciones = []
+  let items = text.split('|')
+  
+  for (let i = 0; i < items.length; i++) {
+    opciones.push([items[i].trim()])
+  }
+  
+  await conn.sendPoll(m.chat, `${global.packname}`, opciones, m)
 }
+
 handler.help = ['encuesta <text|text2>']
 handler.tags = ['grupo'] 
 handler.command = ['poll', 'encuesta'] 
