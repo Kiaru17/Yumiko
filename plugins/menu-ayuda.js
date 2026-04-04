@@ -28,8 +28,8 @@ let estado = `
 await conn.sendButton(m.chat, estado, '‎_BY_ :_.k.i.a.r.u._16', pp, [
 ['𝐌𝐄𝐍𝐔♥⃟᮪〭۬̇〬⃟˖ꪶ', '.allmenu'], ['𝐎𝐖𝐍𝐄𝐑 ♥⃟᮪〭۬̇〬⃟˖ꪶ', '.owner']], null, [['𝐂𝐀𝐍𝐀𝐋♥⃟᮪〭۬̇〬⃟˖ꪶ', `${fgcanal}`]], m)
 }
-handler.help = ['menu']
-handler.tags = ['info']
+handler.help = ['#menu']
+handler.tags = ['#info']
 handler.command = /^(help?)$/i
 export default handler
 
