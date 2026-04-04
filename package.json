@@ -67,7 +67,7 @@
         "node-gtts": "^2.0.2",
         "node-webpmux": "^3.1.3",
         "perf_hooks": "^0.0.1",
-        pino({ level: 'debug' }),
+        "pino": "^8.6.1",
         "pino-pretty": "^9.1.1",
         "qrcode": "^1.5.1",
         "qrcode-terminal": "^0.12.0",
@@ -95,4 +95,4 @@
          "wa-sticker-formatter": "^4.3.2",
         "moment-timezone": "^0.5.37"
     }
-}pino({ level: 'debug' }),
+}"node-cache": "^5.1.2",
