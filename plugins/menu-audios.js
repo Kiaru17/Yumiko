@@ -46,7 +46,6 @@ global.fcontact = {
     };
 
     await conn.reply(m.chat, '𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔♥⃟᮪〭۬̇〬⃟˖ꪶ', global.fcontact);
-    // Alternativa: usa sendFile en lugar de reply si prefieres
     await conn.sendFile(m.chat, pp, 'menu.jpg', m2, m)
 }
 
