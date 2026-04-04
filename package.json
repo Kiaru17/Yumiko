@@ -1,4 +1,4 @@
-{ 
+{
     "name": "Eru bot",
     "version": "3.0.0",
     "description": "La mejor Bot de WhatsApp",
@@ -9,7 +9,6 @@
         "lib": "lib",
         "src": "src",
         "plugins": "plugins"
-
     },
     "scripts": {
         "start": "node index.js",
@@ -89,10 +88,11 @@
         "mime-types": "^2.1.35",
         "api-dylux": "^1.8.3",
         "ytdl-core": "^4.11.5",
-        "yargs": "^17.6.0" 
+        "yargs": "^17.6.0",
+        "node-cache": "^5.1.2"
     },
     "optionalDependencies": {
-         "wa-sticker-formatter": "^4.3.2",
+        "wa-sticker-formatter": "^4.3.2",
         "moment-timezone": "^0.5.37"
     }
-}"node-cache": "^5.1.2",
+}
