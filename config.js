@@ -1,6 +1,7 @@
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk' 
 import { fileURLToPath } from 'url' 
+import { en, es, pt, id, ar } from './language/index.js'
 
 global.owner = [
   ['5493625494354', '𝑪𝒓𝒆𝒂𝒅𝒐𝒓𝒂', true],
@@ -9,6 +10,10 @@ global.owner = [
 
 global.mods = [''] 
 global.prems = ['5493625494354', '5493625494354']
+
+// Lenguaje del bot (cambiar a 'en', 'pt', 'id', 'ar' según prefieras)
+global.mssg = es
+
 global.APIs = { // API Prefix
   // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -39,6 +44,11 @@ global.fgcanal = 'https://whatsapp.com/channel/0029VafBXQtDDmFbtwvkt20J'
 global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
 global.bgp2 = 'https://chat.whatsapp.com/EVl0wxlCww74HV3vvZq83a'
 global.bgp3 = 'https://chat.whatsapp.com/Fn5Ipyxu6mE6qEQlwWZTwU' //--GP NSFW
+
+// Variables de respuesta (que faltaban)
+global.fwc = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: "status@broadcast" }, message: { contactMessage: { displayName: global.botName, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;${global.author};;;\nFN:${global.author}\nEND:VCARD` } } }
+global.rpl = { quoted: null }
+global.rcanal = { quoted: null }
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
